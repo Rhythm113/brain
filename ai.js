@@ -25,7 +25,7 @@ async function dho(msg){
   const response = await openai.createCompletion("text-davinci-002", {
     prompt: msg,
     temperature: 0.7,
-    max_tokens: 256,
+    max_tokens: 3000,
     top_p: 1,
     frequency_penalty: 0,
     presence_penalty: 0,
