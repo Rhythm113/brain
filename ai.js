@@ -58,7 +58,7 @@ dho(ctx.message.text).then(re =>
   //Keep Alive the node 
   var http2 = require("http");
   setInterval(function() {
-      http2.get("http://akari-telegram.herokuapp.com");
+      http2.get("http://brain-fuel.herokuapp.com");
       console.log("I'm Alive hehe")
   }, 300000);
   
