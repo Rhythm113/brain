@@ -34,7 +34,7 @@ async function dho(msg){
 }
 
 bot.on('message', (ctx) =>
- bot.telegram.sendMessage(ctx.chat.id, "AI Processing....", {
+       bot.telegram.sendMessage(ctx.chat.id, "A.I Processing.." , {
   })
 dho(ctx.message.text).then(re => 
   ctx.telegram.sendMessage(ctx.message.chat.id, re).catch((err) => console.log(err))
