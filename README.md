@@ -4,5 +4,5 @@ Make sure to use process.env instead of direct tokens. All the token inside the 
 
 
 # Configs : 
-OPEN_AI_API_KEY
+OPEN_AI_API_KEY<br>
 BOT_TOKEN
