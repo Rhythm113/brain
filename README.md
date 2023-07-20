@@ -1,1 +1,3 @@
-# The real idea of ChatGpt before it's released. An AI Telegram bot based on OPEN AI 
+# Open AI GPT 3 based Telegram bot.
+Easy to setup.
+Make sure to use process.env instead of direct tokens. All the token inside the code has been revoked for security purposes.
